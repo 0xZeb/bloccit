@@ -1,0 +1,15 @@
+{
+  "name": "bloccit",
+  "version": "1.0.0",
+  "description": "A reddit like application for users to discuss and share content",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[A\u001b[C\u001b[B\u001b[Bexport NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/0xZeb"
+  },
+  "author": "",
+  "license": "ISC"
+}
