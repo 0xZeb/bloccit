@@ -1,4 +1,4 @@
-require("dotenv").congfig();
+require("dotenv").config();
 
 module.exports = {
   init(){
