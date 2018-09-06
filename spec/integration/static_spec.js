@@ -9,8 +9,6 @@ describe("routes : static", () => {
     it("should return status code 200", (done) => {
       request.get(base, (err,res,body) => {
         expect(res.statusCode).toBe(200);
-        console.log(res.statusCode + " first one!\n");
-        console.log("\n " + body + " top one");
         done();
       });
     });
@@ -22,8 +20,6 @@ describe("routes : static", () => {
     it("should return status 200", (done) => {
       request.get(base, (err,res,body) => {
         expect(res.statusCode).toBe(200);
-        console.log(res.statusCode + " second one!");
-        console.log(body);
         done();
       });
     });
